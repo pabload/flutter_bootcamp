@@ -11,10 +11,11 @@ class _HomeWorkPageState extends State<HomeWorkPage> {
   int _number = 0;
   AppBar _appbar() {
     return AppBar(
-      title: Text('Example 2'),
+      title: Text('homework'),
     );
   }
-
+  //the body displays one column centered with two texts widgets 
+  //the first text shows the number the second shows if its even or odd
   Widget _body() {
     return Container(
       child: Center(
