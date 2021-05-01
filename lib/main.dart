@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bootcamp/example_1/example_1_page.dart';
 import 'package:flutter_bootcamp/example_2/example_2_page.dart';
+import 'package:flutter_bootcamp/example_3/example_3_page.dart';
+import 'package:flutter_bootcamp/example_4/example_4_page.dart';
+import 'package:flutter_bootcamp/example_5/example_5_page.dart';
+import 'package:flutter_bootcamp/example_6/example_6_page.dart';
 import 'package:flutter_bootcamp/homework_1/homework_page.dart';
 
 void main() {
@@ -20,7 +24,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.green
         )
       ),
-      home: HomeWorkPage(),
+      home: Example6Page(),
     );
   }
 }
